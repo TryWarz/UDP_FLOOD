@@ -32,7 +32,7 @@ Performing a UDP flood attack can cause significant harm to the target server an
 The script utilizes the `socket` and `threading` modules in Python to send multiple GET requests to the target server. It is important to note that this script can be easily modified to include backdoors or remote access tools (RATs). Such modifications are highly discouraged and can lead to severe consequences.
 
 ## Dismantling
-![EXEMPLE : ](img/1.jpg)
+![EXEMPLE : ](img/1.png)
 
 ## Contact
 
