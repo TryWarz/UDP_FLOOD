@@ -4,7 +4,7 @@ import routes
 
 
 app_register = [
- routes.download,
+    routes.download,
 ]
 
 app = flask.Flask(__name__, static_folder='static', template_folder='templates')
