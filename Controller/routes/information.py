@@ -11,8 +11,8 @@ def information_botnet():
 
     with open('request.json', 'r') as f:
         json_data = json.load(f)
-
-    json_data['request'] = request
+        # write the new request
+        json_data['request'] = request
 
     return render_template('information.html', request=request)
     

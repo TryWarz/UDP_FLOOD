@@ -5,6 +5,10 @@ import routes
 
 app_register = [
     routes.download,
+    routes.request,
+    routes.info_attack,
+    routes.control,
+    routes.information
 ]
 
 app = flask.Flask(__name__, static_folder='static', template_folder='templates')
